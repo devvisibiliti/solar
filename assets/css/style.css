@@ -614,6 +614,55 @@ a.handbag:before {
 }
 
 /*==================================================
+ <-- Solar Panel  Service Section Css-->
+===================================================*/
+.service-section {
+    
+    /* background-color: #2d9120; */
+    width: 100%;
+    display: flex;
+}
+
+.service1,
+.service2 {
+    box-shadow: 0 4px 16px rgba(245, 242, 242, 0.12);
+}
+
+.service1 {
+    width: 48%;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 50px;
+    float: left;
+    background-color: #1349ad;
+    margin: 4%;
+    color: #ffffff;
+    
+}
+
+.service2 {
+    width: 48%;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 50px;
+    
+    float: right;
+    background-color: #5ebd10;
+    margin: 4%;
+}
+
+@media (max-width: 768px) {
+    .service-section {
+        width: 100%;
+        flex-direction: column;
+    }
+    .service1,.service2{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+/*==================================================
  <-- Solar Panel  About Section Css-->
 ===================================================*/
 
@@ -977,7 +1026,39 @@ a.handbag:before {
     font-weight: 600;
     margin-bottom: 42px;
 }
+/*==================================================
+ <-- Solar Panel  Service Section Css-->
+===================================================*/
+.industries-we-serve{
+    padding: 40px;
+    background-color: #f9f9f9;
+    display: flex;
+}
 
+.industry-image{
+    width: 50%;
+    padding: 20px;
+    padding-right: 50px;
+    /* background-color: #1349ad; */
+    color: #0e0d0d;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.content-1{
+    width: 50%;
+    padding: 20px;
+    padding-left: 50px;
+    /* background-color: #1349ad; */
+    color: #0e0d0d;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+
+/*==================================================
+ <-- end of Panel  Service Section Css-->
+===================================================*/
 
 /* contact us section title */
 
@@ -1551,7 +1632,7 @@ a.active {
 }
 
 .row.choose {
-    background: url(../images/Home/Solar1370-900\ \(1\).jpeg);
+    /* background: url(../images/Home/Solar1370-900\ \(1\).jpeg); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
