@@ -1272,7 +1272,7 @@ a.handbag:before {
 
 .service-text h4 {
     line-height: 24px;
-    color: #e2e2e2;
+    color: #020202;
     font-weight: 500;
 }
 
@@ -1282,13 +1282,13 @@ a.handbag:before {
 }
 
 .service-box:hover .service-text h4 {
-    color: #e63a27;
+    color: #0dda28;
 }
 
 .service-text p {
     font-size: 16px;
     line-height: 24px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 400;
     margin: 20px 0 45px;
     position: relative;
@@ -1299,7 +1299,7 @@ a.handbag:before {
     content: "";
     height: 1px;
     width: 310px;
-    background: #e8e8e8;
+    background: #000000;
     bottom: -28px;
     opacity: 0.600;
 }
@@ -1309,7 +1309,7 @@ a.handbag:before {
     font-size: 18px;
     line-height: 24px;
     text-decoration: underline;
-    color: #ffffff;
+    color: #000000;
     font-weight: 400;
     transition: .5s;
 }
@@ -2832,7 +2832,20 @@ span.fill {
  <-- Solar Panel  Breatcame  Css-->
 ===================================================*/
 .breatcome-section {
-    background: url(../images/resource/breatcame-bg.jpg);
+    background: url(../images/service/new.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+.breatcome-section-about {
+    background: url(../images/aboutpage/About\ Banner.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 130px 0;
+}
+
+.breatcome-section-contact {
+    background: url(../images/Contact-Banner.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 130px 0;
